@@ -1,6 +1,10 @@
+#ifndef Sequence_H
+#define Sequence_H
+
 #include<iostream>
 #include<string>
-using na,espace std;
+
+using namespace std;
 class Sequence
 {public:
    Sequence(string filename);
