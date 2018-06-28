@@ -1,5 +1,5 @@
-#ifndef Sequence_H
-#define Sequence_H
+#ifndef SEQUENCE_H
+#define SEQUENCE_H
 
 #include<iostream>
 #include<string>
@@ -12,6 +12,9 @@ class Sequence
    int numberOf(char base);
    string longestConsecutive();
    string longestRepeated();
+private:
+  string filename;
 
+};
 
-}
+#endif
