@@ -3,8 +3,7 @@
 using namespace std;
 int main()
 {
-string  filename;
-Sequence test(filename);
+Sequence test(string filename);
 return 0;
 
 
